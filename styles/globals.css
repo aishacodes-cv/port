@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "../public/font/style.css";
 html,
 body {
   padding: 0;
@@ -9,6 +14,9 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+.bebas-font {
+  font-family: Bebas Neue Regular;
 }
 
 * {
